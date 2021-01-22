@@ -1,0 +1,61 @@
+img {
+    height: 105px;
+    width: 105px;
+}
+
+:root {
+    --red-circle: #E6563B;
+    --golden-circle: #EB9D3A;
+    --green-circle: #7CB06C;
+    --turquoise-circle: #00ABA9;
+    --accent-color: #F0F0F0;
+    --background-color: #E6E6E6;
+}
+
+.container {
+    background-color: var(--background-color);
+}
+
+.red-icon {
+    height: 18px;
+    width:  18px;
+    background-color: var(--red-circle);
+    border-radius: 75%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.golden-icon {
+    height: 18px;
+    width:  18px;
+    background-color: var(--golden-circle);
+    border-radius: 75%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.green-icon {
+    height: 18px;
+    width:  18px;
+    background-color: var(--green-circle);
+    border-radius: 75%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.turquoise-icon {
+    height: 18px;
+    width:  18px;
+    background-color: var(--turquoise-circle);
+    border-radius: 75%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.circle {
+    height: 105px;
+    width: 105px;
+    background-color: #bbb;
+    border-radius: 50%;
+    text-align: center;
+}
