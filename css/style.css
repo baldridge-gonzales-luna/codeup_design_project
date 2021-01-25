@@ -129,38 +129,44 @@ body {
 }
 
 .apples {
-    height: 12rem;
+    height: 200px;
+    width: 300px;
     border: var(--accent-color);
 }
 
 .macbook {
-    height: 275px;
+    height: 200px;
+    width: 300px;
+    border: var(--accent-color);
 }
 
 .man {
-    height: 275px;
+    height: 200px;
+    width: 300px;
+    border: var(--accent-color);
 
 }
 
 .security {
-    height: 275px;
-
+    height: 200px;
+    width: 300px;
+    border: var(--accent-color);
 }
 
 .mobile {
-    height: 275px;
-
+    height: 3em;
+    width: 3em;
 }
 
 
 .head {
-    height: 275px;
-
+    height: 3em;
+    width: 3em;
 }
 
 .ipad {
-    height: 275px;
-
+    height: 3em;
+    width: 3em;
 }
 
 .twitter-tag {
@@ -174,5 +180,9 @@ body {
     color: #1DA1F2;
 }
 
-
-
+/*.design {*/
+/*    ;*/
+/*}*/
+p {
+    font-size: 12px;
+}
