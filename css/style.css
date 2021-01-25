@@ -186,3 +186,12 @@ body {
 p {
     font-size: 12px;
 }
+
+.codeup-design {
+    font-family: 'Abel', sans-serif;
+}
+
+a {
+    color: black;
+    font-family: 'Abel', sans-serif;
+}
