@@ -124,8 +124,30 @@ body {
     justify-content: center;
     font-family: 'Anton', sans-serif;
     /*font-size: calc(2vw + 2vh + 1vmin);*/
-    font-size: 1rem;
+    font-size: 12px ;
     text-transform: uppercase;
+}
+
+.project-image {
+    border: var(--accent-color) solid 6px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.project-badges {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.badge-space {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
 }
 
 .apples {
@@ -137,7 +159,7 @@ body {
 .macbook {
     height: 200px;
     width: 300px;
-    border: var(--accent-color);
+    border: var(--accent-color) solid 2px;
 }
 
 .man {
